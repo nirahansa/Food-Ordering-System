@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Restaurant</title>
+        <style>
+            body{
+                background-image: url("image/ddef3ec3f8702c878d35415c9ca61d6d.jpg");
+                
+            }
+            
+                
+            
+            nav button  {
+                
+                font-size: 18px;
+                display: inline;
+                font-family: 'Times New Roman', Times, serif;
+                border: none;
+            }
+            nav button .admin{
+                margin-left: 80px;
+            }
+            .manu{
+                font-size: 18px;
+            }
+            h1{
+                font-family: fantasy;
+                font-size: 100px;
+                text-align: center;
+                color: red;
+            }
+            .gallery {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: 18px auto; 
+                width: 667px;
+                height: 500px;
+                background-color: rgb(51, 19, 19);
+                box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            }
+
+            .image {
+                margin: 6px;
+                
+            }
+
+            .image img {
+                width: 200px;
+                height: auto;
+                transition: transform 0.3s;
+                
+            }
+
+            .image img:hover{
+                transform: scale(1.1);
+            }  
+            .next{
+                float: right;
+                color: red;
+            }  
+
+            
+        </style>
+    </head>
+    <body>
+        <div class="name1">
+            <nav>
+                    
+                
+                <button class="signin"><a href="login.html">Sign in</a></button>
+                <button class="signout"><a href="add_user.html">Sign Out</a></button>
+                <button class="admin"><a href="admin/admin.php">Admin</a></button>
+                
+            </nav>
+        </div>
+        <h1>Welcome  Testy Bites</h1>
+        <center><button class="manu"><a href="http://localhost/rest/manu.php">Food Item</a></button></center>
+            <section class="gallery">
+                <div class="image" >
+                    <img src="image/vegan-kottu-roti-1.jpg">
+                    
+                </div>
+    
+                <div class="image" >
+                    <img src="image/food/egg-kottu.jpeg">
+                </div>
+                <div class="image" >
+                    <img src="image/food/Rosted-chicken-kottu.png">
+                </div>
+                <div class="image" >
+                    <img src="image/food/images2.jpeg">
+                </div>
+                <div class="image" >
+                    <img src="image/food/images1.jpeg">
+                </div>
+                <div class="image" >
+                    <img src="image/food/photo0jpg.jpg">
+                </div>
+                <div class="image" >
+                    <img src="image/food/fish-kottu.jpg">
+                </div><div class="image" >
+                    <img src="image/food/maxresdefault.jpg">
+                </div><div class="image" >
+                    <img src="image/food/Rosted-chicken-kottu.png">
+                </div>
+            </section>
+            
+        
+
+        
+    </body>
+</html>

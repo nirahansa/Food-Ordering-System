@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.text-center{
+    text-align: center;
+}
+.clearflex{
+    float:none;
+    clear: both;
+}
+.tblfull{
+    width: 100%;
+}
+.tbl-30{
+    width: 40%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 2%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color: darkcyan;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: blue;
+}
+.btn-secondary{
+    background-color: rgb(0, 139, 86);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: rgb(5, 31, 15);
+}
+.btn-danger{
+    background-color: rgb(240, 50, 50);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: rgb(17, 2, 3);
+}
+
+.success{
+    color:rgb(147, 207, 207) ;
+}
+.error{
+    color: crimson;
+}
+/*css for manu*/
+.manu{
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+.manu ul{
+    list-style-type: none;
+}
+.manu ul li{
+    display: inline;
+    padding: 1%;
+    
+}
+.manu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+.manu ul li a:hover{
+    color: brown;
+}
+
+/*css for main content*/
+.main_content{
+    
+    background-color: antiquewhite;
+    padding: 3% 0;
+}
+.col-4{
+    background-color: white;
+    width: 20%;
+    height: auto;
+    margin: 3%;
+    padding: 1%;
+    float: left;
+    
+}   
+/*css for footer*/
+.footer {
+    background-color: coral;
+    color: white;
+}

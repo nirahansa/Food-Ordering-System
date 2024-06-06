@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Registration</title>
+        <style>
+            .next{
+                margin-left: 1250px ;
+                width: 25px;
+                height: auto;
+            }
+            h1{
+                text-align: center;
+                border-top: 200px;
+            }
+            form{
+                text-align: center;
+                background-color: rgb(241, 181, 184);
+                width: 500px;
+                height: 350px;;
+            }
+        </style>
+    </head>
+    <body>
+        
+        
+        <form action="add_user.php" method="POST">
+            <h1>User Registration</h1>
+            <label for="first_name">First Name:</label>
+            <input type="text" name="first_name" required><br>
+            <br><br>
+            <label for="last_name">Last Name:</label>
+            <input type="text" name="last_name" required><br>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" required><br>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" required><br>
+            <br><br>
+            <input type="submit" value="Add User"><br>
+        </form>
+        <a href="login.html"><img  class='next'src="image/next.png"></a>
+    </body>
+</html>

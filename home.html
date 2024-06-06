@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            const hour = new Date().getHours(); 
+            let greeting;
+            
+            if (hour < 12) {
+              greeting = "Good day";
+            } else {
+              greeting = "Good evening";
+            }
+            
+            document.getElementById("demo").innerHTML = greeting;
+            </script>
+    </head>
+    <body>
+        
+        <div class="name">   
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    
+                    <li><a href="cart.php">Order</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="user_logout.php">Logout</a></li>
+                </ul>
+            </nav>
+        </div>        
+        <br>
+        
+            <div class="name1">
+                    
+                <img src="image/logo-removebg-preview.png">
+            </div>
+            <p id="demo"></p>
+            <center><h2>Most Popular Kottu</h2></center>
+            <div class="gallery">
+                <div class="image" >
+                    <img src="image/vegan-kottu-roti-1.jpg">
+                    <h4>Rs 300.00</h4>
+                </div>
+
+                <div class="image" >
+                    <img src="image/food/egg-kottu.jpeg">
+                    <h4>Rs 350.00</h4>
+                </div>
+                <div class="image" >
+                    <img src="image/food/Rosted-chicken-kottu.png">
+                    <h4>Rs 400.00</h4>
+                </div>
+            </div>    
+        
+        
+        
+        
+        
+       
+        <div class="footer">
+          <!---footer start----->
+            <footer >
+                <table>
+                    <tr>
+                        <th>Company</th>
+                        <th>Contact</th>
+                        <th>Opening Time</th>
+                    </tr>
+                    <tr>
+                        <td><a href="aboutus.html">About Us</a></td>
+                        <td>0112-234567</td>
+                        <td>Monday - Saturday (08.30am -09.00pm)</td>
+                    </tr>
+                    <tr>
+                        <td><a href="contactus.html">Contact Us</a></td>
+                        <td>teastybites@gmail.com</td>
+                        <td>Sunday (08.00am - 05.30pm)</td>
+                    </tr>
+                </table>
+            </footer>
+        </div>
+
+        <!--footer Close-------->
+        
+    </body>
+</html>  

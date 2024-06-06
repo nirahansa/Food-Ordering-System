@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <style>
+            body{
+                background-color: rgb(231, 202, 202); 
+            }
+            .image{
+                width: 30px;
+                height: auto;
+            }
+            h1{
+                text-align: center;
+                color: red;
+                font-size: 40px;
+            }
+            h3{
+                color: brown;
+                font-size: 20px;
+            }
+            .image1{
+                text-align: center;
+            }
+            .gallery1 {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: 18px auto; 
+                width: 200px;
+                height:70px;
+                
+                border-top: 200px;
+            }
+
+            .image2 {
+                margin: 8px;
+                
+            }
+
+            .image2 img {
+                width: 50px;
+                height: auto;
+                transition: transform 0.3s;
+                
+            }
+            .name1{
+                text-align: center;
+                margin: 10px auto;
+                width: 967px;
+                height: auto;
+                background-color: rgb(228, 39, 39);
+                box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            }
+
+
+
+            nav{background-color: red;
+                overflow: hidden;
+                text-align:right;
+            }
+            nav ul{
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
+                overflow: hidden;
+                display: inline-block;
+            }
+
+            nav ul li {
+                float: left;
+                display: inline;
+            }
+
+            nav ul li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            nav a:hover{
+                color: rgb(223, 223, 235);
+                text-decoration: underline;
+                text-underline-position: under;
+            }
+            .footer{
+                text-align: center;
+            }
+            footer  {
+                background-color: rgb(252, 121, 14);
+                color: white;text-align: center;
+            }
+            footer tr{
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
+                overflow: hidden;
+                
+            }
+
+            footer tr th,tr{
+                
+                color: white;
+                
+                padding: 14px 20px;
+                text-decoration: none;
+                font-size: 18px;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <div class="name">   
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    
+                    <li><a href="cart.php">Order</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="user_logout.php">Logout</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <h1>Contact US</h1>
+        <div class="image1">
+            <h3><img class="image"src="image/phone.png">0112-234567</h3><br>
+            <h3><img class="image"src="image/gmail.png">teastybites@gmail.com</h3><br>
+            <h3><img class="image"src="image/location.png"><a href="https://maps.app.goo.gl/XJBUu7q6QxAtyADV7">Testy Bites Restaurant</a></h3><br>
+        </div>
+        <selection class="gallery1">
+            <div class="image2">
+                <img src="image/facebook.png">
+            </div>
+            <div class="image2">
+                <img src="image/instragram.png">
+            </div>
+            <div class="image2">
+                <img src="image/twitter.png">
+            </div>
+        </selection>
+        <div class="footer">
+            <!---footer start----->
+              <footer >
+                  <table>
+                      <tr>
+                          <th>Company</th>
+                          <th>Contact</th>
+                          <th>Opening Time</th>
+                      </tr>
+                      <tr>
+                          <td><a href="aboutus.html">About Us</a></td>
+                          <td>0112-234567</td>
+                          <td>Monday - Saturday (08.30am -09.00pm)</td>
+                      </tr>
+                      <tr>
+                          <td><a href="contactus.html">Contact Us</a></td>
+                          <td>teastybites@gmail.com</td>
+                          <td>Sunday (08.00am - 05.30pm)</td>
+                      </tr>
+                  </table>
+              </footer>
+          </div>
+    </body>
+</html>
